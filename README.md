@@ -141,8 +141,8 @@ initial begin
     clk = 0;
     load = 0;
     reset = 1'b1;         // Assert reset
-    M = 4'b0111;          // M = 7
-    Q = 4'b1011;          // Q = -5
+    M = 4'b0100;          // M = 4
+    Q = 4'b1010;          // Q = -6
 
     #20;
     load = 1;             // Load M and Q
